@@ -9,13 +9,13 @@ export default function Porfile() {
                     <a href="https://www.facebook.com/profile.php?id=100077761115364">
                      <i className='fa fa-facebook-square'></i>
                     </a>
-                    <a href="#">
-                     <i className='fa fa-google-square'></i>
+                    <a href="https://github.com/kayasthaswati">
+                     <i className='fa fa-google'></i>
                     </a>
-                    <a href="#">
-                     <i className='fa fa-youtube-square'></i>
+                    <a href="https://github.com/kayasthaswati">
+                     <i className='fa fa-github-square'></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/kayastha_swati/?next=%2F">
                      <i className='fa fa-instagram'></i>
                     </a>
                     <a href="https://twitter.com/kayastha_swati">
@@ -30,8 +30,8 @@ export default function Porfile() {
             </span>
            </div>
               <div className="profile-details-role">
-              <span className="primary-text">
-               <h1>
+               <span className="primary-text">
+               {/*<h1>
                 {" "}
                 <Typical
                  loop={Infinity}
@@ -48,10 +48,20 @@ export default function Porfile() {
                     1000 ,
                   ]}
                />
-               </h1>
-
+               </h1>*/}
               </span>
-
+     <span className="profile-role-tagline">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, beatae!
+     </span>
+              </div>
+              <div className="profile-options">
+                <button className='btn primary-btn'>
+                  Hire me
+                </button>
+                <a href="C:\Users\91829\Desktop\web development\foundations\react-learning\src\PortfolioContainer\Home\resume_swati_srivastava_nu.pdf" download="resume_swati_srivastava_nu.pdf"></a>
+                <button className="btn highlighted-btn">
+                  Get Resume
+                </button>
               </div>
 
             </div>
