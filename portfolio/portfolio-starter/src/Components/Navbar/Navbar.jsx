@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 const Navbar = () =>{
-  return (
+  return ( 
     <div className="n-wrapper">
         <div className="n-left">
        <div className="n-name">
@@ -19,8 +19,8 @@ const Navbar = () =>{
         <li>Portfolio</li>
     </ul>
 </div>
- <button className="button">
-    Contact
+ <button className="button n-button">
+    Contact Us
  </button>
         </div>
     </div>
