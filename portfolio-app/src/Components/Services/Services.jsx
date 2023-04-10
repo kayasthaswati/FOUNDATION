@@ -48,7 +48,7 @@ const Services = () => {
           detail = {"HTML , CSS "}
         />
       </div>
-      <div className="blur s-blur" style={{background : "var(--purple)"}}></div>
+      <div className="blur s-blur2" style={{background : "var(--purple)"}}></div>
       </div>
     </div>
   )
