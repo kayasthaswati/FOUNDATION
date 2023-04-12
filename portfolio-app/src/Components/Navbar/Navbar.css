@@ -11,7 +11,7 @@
     gap: 2rem;
 }
 .n-name{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
@@ -29,6 +29,8 @@
 }
 
 .n-list>ul{
+    
+    cursor: pointer;
     display: flex;
     gap: 2rem;
     margin-right: 4rem;

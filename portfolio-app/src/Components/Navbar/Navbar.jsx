@@ -1,12 +1,14 @@
 import React from 'react'
 import Toogle from '../Toogle/Toogle'
 import './Navbar.css'
+import {Link} from 'react-scroll'
+import Resume from './Resume.pdf';
 const Navbar = () =>{
   return (
     <div className="n-wrapper">
         <div className="n-left">
        <div className="n-name">
-        Swati srivastava
+        Portfolio Website
        </div>
       <Toogle/>
         </div>
@@ -14,15 +16,21 @@ const Navbar = () =>{
         <div className="n-right">
         <div className="n-list">
     <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>Experience</li>
-        <li>Portfolio</li>
+      <li><Link to ='Navbar' smooth={true} activeClass="activeClass">
+        Home</Link></li>
+        <li><Link to='Intro' smooth={true}>About Me</Link></li>
+        <li><Link to='Services' smooth={true}>Projects</Link></li>
+        <li><Link to='contact-form' smooth={true}>Contact</Link></li>
+        <li><Link to='footer' smooth={true}>Socials</Link></li>
     </ul>
 </div>
- <button className="button">
-    Contact
- </button>
+
+
+ <a href={Resume} download>
+<button className="button"> CV</button>
+</a>
+
+
         </div>
     </div>
   )

@@ -7,7 +7,7 @@ import Card from '../Card/Card';
 import Resume from './Resume.pdf';
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="Services">
       <div className="awesome">
 <span>My Awesome </span>
 <span>Projects</span>
@@ -23,17 +23,11 @@ const Services = () => {
       <div style={{left : '14rem'}}>
         <Card
         emoji={HeartEmoji}
-        heading = {'Design'}
-        detail = {"Figma , Sketch"}
+        heading = {'Hotel Management'}
+        detail = {"Java , MySQL"}
         />
       </div>
-      <div style={{left : '14rem'}}>
-        <Card
-        emoji={HeartEmoji}
-        heading = {'Design'}
-        detail = {"Figma , Sketch"}
-        />
-      </div>
+      
       <div style={{top:"12rem", left:"-4rem"}}>
         <Card
           emoji={Glasses}

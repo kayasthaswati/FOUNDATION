@@ -1,8 +1,6 @@
-
-
 import Navbar from "./Components/Navbar/Navbar";
 
-import './App.css'
+import "./App.css";
 import Intro from "./Components/Intro/intro";
 import FloatingDiv from "./Components/FloatingDiv/FloatingDiv";
 import Services from "./Components/Services/Services";
@@ -15,18 +13,19 @@ function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="App"
-    style={{
-      background: darkMode? 'black': '',
-      color : darkMode? 'white' : '',
-    }}
+    <div
+      className="App"
+      style={{
+        background: darkMode ? "black" : "",
+        color: darkMode ? "white" : "",
+      }}
     >
-       <Navbar/>
-       <Intro/>
-     <FloatingDiv/>
-     <Services/>
-     <Contact/>
-     <Footer/>
+      <Navbar />
+      <Intro />
+      {/* <FloatingDiv /> */}
+      <Services />
+      <Contact />
+      <Footer />
     </div>
   );
 }

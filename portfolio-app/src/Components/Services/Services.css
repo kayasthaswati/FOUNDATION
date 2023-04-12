@@ -1,10 +1,10 @@
 .services{
     padding: 0 3rem 0 3 rem;
     display: flex;
-    height: 90vh;
+    height: 85vh;
     margin-bottom:  8rem;
-    margin-top: 9rem;
-    
+    margin-top: 4rem;
+    padding-top: 2rem;
 }
 .awesome{
     display: flex;
